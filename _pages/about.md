@@ -1,8 +1,13 @@
-
 ---
-layout: home
+permalink: /
 title: "Sadman Sakib"
+author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
 ---
+
+
 
 # Welcome to My Academic Portfolio
 

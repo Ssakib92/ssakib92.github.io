@@ -8,27 +8,27 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Sadman Sakib"
 title_separator          : "-"
 name                     : &name "Sadman Sakib"
 description              : &description "Lecturer | Researcher | Engineer"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+url                      : https://ssakib92.github.io
+baseurl                  : "" # No subpath for your site
+repository               : "ssakib92/ssakib92.github.io"  # Your GitHub repository
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile.jpg"  # Add your profile picture in the 'assets/images' folder
   name             : "Sadman Sakib"
-  pronouns         : # example: "she/her"  
-  bio              : "Lecturer"
-  location         : "Earth"
-  employer         : "Red Brick University"
-  uri              : # URL
-  email            : "none@example.org" 
+  pronouns         : "he/him"
+  bio              : "Lecturer in Electrical and Electronic Engineering, specializing in neuromorphic computing and emerging memory technologies."
+  location         : "Sylhet, Bangladesh"
+  employer         : "Metropolitan University"
+  uri              : # URL (Optional if you want to link to your personal website)
+  email            : "ssakib12325@gmail.com"  # Your email
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
@@ -44,12 +44,12 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "ssakib92"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -58,7 +58,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "https://www.linkedin.com/in/sadman-sakib-shammo/"  # Your LinkedIn profile
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
