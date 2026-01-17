@@ -23,7 +23,7 @@ author:
   # Biographic information
   avatar           : "profile.jpg"  # Add your profile picture in the 'assets/images' folder
   name             : "Sadman Sakib"
-  pronouns         : "he/him"
+  pronouns         : 
   bio              : "Lecturer in Electrical and Electronic Engineering, specializing in neuromorphic computing and emerging memory technologies."
   location         : "Sylhet, Bangladesh"
   employer         : "Metropolitan University"
@@ -32,11 +32,11 @@ author:
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=cY15zpkAAAAJ&hl=en&oi=sra"
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : "https://orcid.org/0009-0002-8362-2405"
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # URL
   researchgate     : # URL
   scopus           : # URL
 
@@ -58,7 +58,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : "https://www.linkedin.com/in/sadman-sakib-shammo/"  # Your LinkedIn profile
+  linkedin         : "sadman-sakib-shammo/"  # Your LinkedIn profile
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username

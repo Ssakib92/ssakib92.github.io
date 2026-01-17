@@ -39,3 +39,210 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+
+/* =========================================================
+   1. GLOBAL TYPOGRAPHY & READABILITY
+   Controls text size, spacing, and font choices
+   ========================================================= */
+
+/* Base font and text color */
+body {
+  font-family: "Inter", -apple-system, BlinkMacSystemFont,
+               "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: #222;
+  background-color: #f5f8fc; /* overall page background */
+}
+
+/* Paragraph readability */
+p {
+  line-height: 1.7;
+  margin-bottom: 1.2rem;
+}
+
+/* Headings hierarchy */
+h1 {
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin-top: 2.2rem;
+  margin-bottom: 0.8rem;
+}
+
+h3 {
+  margin-top: 1.6rem;
+}
+
+/* Slightly stronger headings */
+h1, h2, h3 {
+  color: #111;
+  font-weight: 600;
+}
+
+/* Links (academic green accent) */
+a {
+  color: #4a7c6f;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Bold text clarity */
+strong {
+  font-weight: 600;
+}
+
+/* Horizontal rules */
+hr {
+  border: none;
+  border-top: 1px solid #e5e5e5;
+  margin: 2.5rem 0;
+}
+
+/* Lists spacing */
+ul li {
+  margin-bottom: 0.5rem;
+}
+
+
+/* =========================================================
+   2. MAIN PAGE LAYOUT & SPACING
+   Controls the white content "paper"
+   ========================================================= */
+
+.page {
+  max-width: 980px;          /* gives enough room for sidebar + content */
+  background: #ffffff;
+  margin-top: -1.5rem; 
+  border-radius: 10px;
+  padding: 2.5rem 3rem;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.04);
+}
+
+/* Improve section separation */
+section,
+.page__content > h2,
+.page__content > h3 {
+  margin-top: 3rem;
+}
+
+/* Emphasize first heading on Home page */
+.page__content h1:first-of-type {
+  font-size: 2.8rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Slightly tighter subheading letters */
+.page__content h2 {
+  letter-spacing: -0.01em;
+}
+
+/* Limit paragraph width for readability */
+.page__content p {
+  max-width: 880px;
+}
+
+/* Lists spacing inside content */
+.page__content ul {
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+
+/* =========================================================
+   3. RESEARCH CARDS (CONTENT BLOCKS)
+   Used on Research page
+   ========================================================= */
+
+.research-card {
+  background: #ffffff;
+  border: 1px solid #eaeaea;
+  border-radius: 12px;
+  padding: 1.8rem 2rem;
+  margin-bottom: 2rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Subtle hover lift (very gentle) */
+.research-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.06);
+}
+
+/* Focus line inside cards */
+.research-focus {
+  font-size: 0.9rem;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 0.8rem;
+}
+
+
+/* =========================================================
+   4. SIDEBAR (AUTHOR PROFILE)
+   Controls size, background, spacing, typography
+   ========================================================= */
+
+.sidebar {
+  flex: 0 0 320px;            /* wider than default */
+  max-width: 320px;
+  background-color: #f7fbf9;  /* light green background */
+  padding: 1.5rem;
+  border-radius: 14px;
+  margin-top: 2rem;           /* push sidebar down */
+  box-shadow: 0 9px 24px rgba(0, 0, 0, 0.05);
+}
+
+/* Avatar image */
+.author__avatar img {
+  max-width: 200px;
+  border-radius: 50%;         /* circular avatar */
+}
+
+/* Small spacing tweak */
+.author__avatar {
+  margin-top: 0.5rem;
+}
+
+/* Name styling */
+.author__name {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+/* Bio text */
+.author__bio {
+  font-size: 0.9rem;
+  line-height: 1.4;
+  color: #555;
+}
+
+
+/* =========================================================
+   5. MAIN CONTENT WIDTH (BALANCE WITH SIDEBAR)
+   ========================================================= */
+
+
+
+
+/* =========================================================
+   6. MOBILE SAFETY
+   ========================================================= */
+
+@media (max-width: 768px) {
+  .sidebar,
+  .page__content {
+    max-width: 100%;
+    flex: 1 1 auto;
+  }
+}
+/* Main content column (safe way) */
+.page__content {
+  width: 100%;
+}

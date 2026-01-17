@@ -1,31 +1,33 @@
 ---
 permalink: /
-title: "Sadman Sakib"
 author_profile: true
+title: About Me
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-
-
-# Welcome to My Academic Portfolio
-
-Hello! I am **Sadman Sakib**, a Lecturer in the Department of Electrical and Electronic Engineering at Metropolitan University, Sylhet. My research focuses on **neuromorphic computing**, **spiking neural networks (SNNs)**, and **emerging memory technologies**. My work involves optimizing deep learning models and designing efficient AI hardware systems.
+I am a Lecturer in the Department of Electrical and Electronic Engineering at Metropolitan University.  
+My research lies at the intersection of **neuromorphic computing**, **emerging memory devices**, and 
+**physics-aware machine learning**, with an emphasis on efficient and device-informed computation.
 
 ---
 
-## Research Interests
-
-- **Neuromorphic Computing**: Exploring biologically inspired computing models.
-- **Emerging Memory Technologies**: Investigating memristors, ReRAM, and phase-change memory for AI hardware.
-- **Spiking Neural Networks**: Focused on unsupervised learning and energy-efficient models.
-- **AI Hardware**: Design and optimization for embedded AI applications.
+### Research Focus
+- **Neuromorphic computing:** spiking neural networks and biologically inspired learning rules
+- **Spintronic devices:** MTJ-based memory and true random number generators
+- **Device-aware optimization:** evolutionary algorithms and inverse design
+- **Applied ML:** learning models for physical and energy systems
 
 ---
 
-## About Me
+### Current Work
+- Stochastic MTJ modeling and optimization for TRNG applications  
+- First-principles DFT simulations of 2D materials for scalable devices
 
-I completed my **B.Sc. in Electrical and Electronic Engineering** from the **Islamic University of Technology (IUT)**, Bangladesh. Currently, I’m working on optimizing machine learning algorithms for hardware efficiency and exploring the integration of AI with low-power hardware devices.
+---
 
-Feel free to explore my [Publications](./publications/), [Projects](./projects/), or download my [CV](./assets/cv.pdf).
+### Explore
+- 🔬 [Research](/research/)
+- 📄 [Publications](/publications/)
+- 📑 [Curriculum Vitae](/cv/)
